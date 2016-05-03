@@ -10,15 +10,19 @@ do{
 		switch (n){
 			case 1:
 				op = n1+n2;
+				document.write( n1 + " + " + n2 + " = " + op + "<br>");
 				break;
 			case 2: 
 				op = n1 - n2;
+				document.write( n1 + " - " + n2 + " = " + op+ "<br>"));
 				break;
 			case 3:
 				op = n1*n2;
+				document.write( n1 + " x " + n2 + " = " + op+ "<br>"));
 				break;
 			case 4 :
 				op = n1/n2;
+				document.write( n1 + " / " + n2 + " = " + op+ "<br>"));
 				break;
 			default:
 				break;
